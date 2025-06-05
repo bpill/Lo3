@@ -1,36 +1,36 @@
-# Modern Web Project
+# Lo3_script.cfg
 
 ## Overview
-This project is a modern web application that showcases dynamic graphics and modern design elements. It serves as a portfolio piece and a learning experience in web development.
+This project recreates the nostalgic Counter-Strike 1.6 "Live on 3" (Lo3) script experience in a modern web application. It features an authentic console-style animation that mimics the classic CS 1.6 competitive match startup sequence.
+
 
 ## Features
-- Responsive design with modern CSS techniques
-- Dynamic graphics and animations
-- Modular components for easy maintenance
-- Clean and organized file structure
+- Authentic CS 1.6 console styling
+- Dynamic text animations mimicking original Lo3 script
+- ASCII art number countdown (3 → 2 → 1 → LIVE)
+- Sliding text animations
+- Retro loading sequence
+- Custom scrollbar styling
+- Console-accurate positioning
 
-## Setup Instructions
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd modern-web-project
-   ```
-3. Install the dependencies:
-   ```
-   npm install
-   ```
-4. Open the project in your preferred web server or use a live server extension in your IDE.
+## Project Structure
+- main.js: Core animation and console logic
+- styles
+   - main.css: Console styling and layout
+   - animations.css: Animation keyframes and effects
+- index.html: Main console interface
 
-## File Structure
-- `src/assets/styles/`: Contains CSS files for styling the application.
-- `src/assets/scripts/`: Contains JavaScript files for application logic.
-- `src/components/`: Contains reusable components for the application.
-- `src/layouts/`: Contains layout templates for the pages.
-- `src/pages/`: Contains the main pages of the application.
-- `src/utils/`: Contains utility functions for the application.
+## Technical Details
+- Pure JavaScript for animations
+- CSS3 animations and transitions
+- Custom console-style UI
+- Modular animation generation system
+- Dynamic text rendering
 
-## License
-This project is licensed under the MIT License.
+## Original Script Reference
+Based on a classic Counter-Strike 1.6 "Live on 3" configuration script that:
+1. Alerts players of impending match start
+2. Performs 3 server restarts
+3. Applies competitive settings
+4. Displays countdown animation
+5. Starts the match with "GLHF"
