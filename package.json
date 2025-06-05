@@ -1,0 +1,19 @@
+{
+  "name": "modern-web-project",
+  "version": "1.0.0",
+  "description": "A modern web project featuring dynamic graphics and modern design elements.",
+  "main": "src/assets/scripts/main.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
