@@ -1,4 +1,4 @@
-// src/assets/scripts/main.js
+// assets/main.js
 
 /**
  * Generates a right‑to‑left sliding ASCII animation for a given word.
@@ -77,10 +77,6 @@ const consoleMessages = [
     "mp_freezetime 15",
     "sv_restartround 1",
     // Dynamic LO3 animation frames will be generated programmatically below
-    
-
-    "G o o d  L u c k  a n d  H a v e  F u n !",
-
 ];
 
 /* --- LO3 dynamic banner animation (3 → 2 → 1 → GLHF) --- */
@@ -138,15 +134,14 @@ scrollFrames.push(`${nextTag()}------------------GLHF!-----------------|`);
 const liveBounce = generateBounceFrames("LIVE", 40);
 let bounceIdx = 0;
 
-while (tagCounter > 10) {
+while (tagCounter > 9) {
   const frame = liveBounce[bounceIdx % liveBounce.length];
   scrollFrames.push(`${nextTag()}${frame}|`);
   bounceIdx++;
 }
 
-// Stylised 40‑char‑wide "Lo3.gg" ASCII (11 rows)
+// Stylised 40‑char‑wide "Lo3.gg" ASCII (10 rows)
 const lo3gg = [
-  "                                        ", // |10|
   "                                        ", // |09|
   "                                        ", // |08|
   "       ██╗             ██████╗          ", // |07|

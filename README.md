@@ -14,10 +14,13 @@ This project recreates the nostalgic Counter-Strike 1.6 "Live on 3" (Lo3) script
 - Console-accurate positioning
 
 ## Project Structure
-- main.js: Core animation and console logic
-- styles
-   - main.css: Console styling and layout
-   - animations.css: Animation keyframes and effects
+- assets/
+  - main.js: Core animation and console logic
+- styles/
+  - main.css: Console styling and layout
+  - animations.css: Animation keyframes and effects
+- components/: Modular UI components
+- utils/: Utility functions
 - index.html: Main console interface
 
 ## Technical Details
