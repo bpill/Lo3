@@ -1,5 +1,5 @@
 {
-  "name": "lo3.cfg",
+  "name": "lo3-script",
   "version": "1.0.0",
   "description": "A legacy script from Counter-Strike 1.6",
   "main": "src/assets/scripts/main.js",
@@ -8,8 +8,7 @@
     "build": "echo 'Build process not defined yet.'"
   },
   "dependencies": {
-    "animejs": "^3.2.1",
-    "jquery": "^3.6.0"
+    "animejs": "^3.2.1"
   },
   "devDependencies": {
     "live-server": "^1.2.1"
