@@ -63,7 +63,7 @@ p {
     position: fixed; /* Fix position */
     bottom: 20px; /* Distance from bottom */
     left: 20px; /* Distance from left */
-    width: 450px; /* Fixed width instead of percentage */
+    width: 470px; /* Fixed width instead of percentage */
     max-width: calc(100% - 40px); /* Responsive fallback */
     background-color: #000;
     border: 2px solid #FFB600;
