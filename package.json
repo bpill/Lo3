@@ -2,9 +2,9 @@
   "name": "lo3-script",
   "version": "1.0.0",
   "description": "A legacy script from Counter-Strike 1.6",
-  "main": "src/assets/scripts/main.js",
+  "main": "assets/main.js",
   "scripts": {
-    "start": "live-server src",
+    "start": "live-server .",
     "build": "echo 'Build process not defined yet.'"
   },
   "dependencies": {
